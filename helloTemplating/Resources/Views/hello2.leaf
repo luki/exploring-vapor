@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    #embed("title")
+  </head>
+  <body>
+    #loop(users, "user") {
+      <h1>Hello, #(user)</h1>
+    }
+  </body>
+
+</html>

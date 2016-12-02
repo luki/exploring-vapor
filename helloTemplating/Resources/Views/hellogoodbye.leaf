@@ -1,0 +1,13 @@
+#extend("master")
+
+#export("head") {
+#embed("title")
+}
+
+#export("body") {
+#if(sayHello) {
+<p>Hello!</p>
+} ##else() {
+  <p>George, Paul, John & Ringo are sad to see you go.</p>
+}
+}
